@@ -1,0 +1,10 @@
+.changeDirection {
+  flex-direction: column;
+}
+@media screen and (max-width: 1000px) {
+  .changeDirection {
+    flex-direction: row;
+    margin-top: 3rem;
+    gap: 20px
+  }
+}

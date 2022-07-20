@@ -1,0 +1,15 @@
+.listSkills {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-right: 5rem;
+}
+@media screen and (max-width: 1000px) {
+  .listSkills {
+    justify-content: center;
+    align-items: center;
+    margin: 0
+  }
+}
