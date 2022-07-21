@@ -17,6 +17,7 @@ import about03 from "../assets/about03.png";
 import about04 from "../assets/about04.png";
 
 import portfolio from "../assets/portafolio.png";
+import landingPage from "../assets/landingPage.png";
 
 import profile from "../assets/profile.png";
 import circle from "../assets/circle.svg";
@@ -48,4 +49,5 @@ export default {
   bgImg,
   bgWhite,
   portfolio,
+  landingPage,
 };
