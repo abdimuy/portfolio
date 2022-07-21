@@ -19,7 +19,6 @@ import {
   workItemImateStyles,
   workItemStyles,
 } from "./styles";
-import { images } from "../../../contants";
 import { WHITE_COLOR } from "../../../contants/colors";
 import { works } from "../../../store/works";
 
@@ -76,7 +75,7 @@ const Work = () => {
                   transition: "all 0.3s ease",
                 }}
               >
-                <Link to="https://github.com/abdimuy" target="_blank">
+                <Link to={work.websiteURL} target="_blank">
                   <motion.div
                     whileInView={{ scale: [0, 1] }}
                     whileHover={{ scale: [1, 1.1] }}
